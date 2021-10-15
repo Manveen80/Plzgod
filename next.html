@@ -7,11 +7,65 @@
       float: left;
       margin-right: 40px;
     }
+
+    label {
+      display: grid;
+      margin: 10px;
+    }
+
+    input {
+      box-sizing: content-box;
+      text-align: center;
+    }
+    .form-group {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+    button {
+      margin: 10px;
+    }
   </style>
 
   <body>
     Welcome there! how are you??
 
     <img src="images/flower.jpg" alt="flower" />
+
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id=" email" />
+      </div>
+
+      <div class="form-group">
+        <label for="password">password</label>
+        <input type="password" id="password" />
+      </div>
+
+      <div id="button">
+        <button type="submit">submit</button>
+        <button type="reset">clear</button>
+        <button type="menu">age</button>
+      </div>
+
+      <div>
+        <input type="text" list="countries" />
+        <datalist id="countries">
+          <option>canada</option>
+          <option>India</option>
+          <option>USA</option>
+          <option>Australia</option>
+          <option>Germany</option>
+          <option>Brazil</option>
+          <option>Japan</option>
+        </datalist>
+      </div>
+    </form>
   </body>
 </html>
