@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+
+  
+</head>
   <style>
-    img {
-      width: 100px;
-      border-radius: 100px;
-      float: left;
-      margin-right: 40px;
-    }
+   
 
     label {
-      display: grid;
+      display: block;
       margin: 10px;
     }
 
@@ -20,17 +20,49 @@
     .form-group {
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-color: yellow;
+      width: 300px;
+      
     }
 
     button {
       margin: 10px;
     }
+
+
+    .btn1 {
+  background-color: aquamarine;
+  color: black;
+  padding: 10px;
+}
+
+.btn1:hover {
+  background-color: brown;
+}
+
+.btn2 {
+  background-color: aquamarine;
+  color: black;
+  padding: 10px;
+}
+
+.btn2:hover {
+  background-color: brown;
+}
+
+.gender-class {
+  display: block;
+}
   </style>
 
   <body>
-    Welcome there! how are you??
 
-    <img src="images/flower.jpg" alt="flower" />
+    
+
+    <center>
+    <h1 style="color: #FF3C33;">Welcome there! how are you??</h1>
+<img src="images/flower.jpg" alt="flower" width="20%"/>
+  
 
     <form>
       <div class="form-group">
@@ -54,7 +86,7 @@
         <button type="menu">age</button>
       </div>
 
-      <div>
+      
         <input type="text" list="countries" />
         <datalist id="countries">
           <option>canada</option>
@@ -66,6 +98,24 @@
           <option>Japan</option>
         </datalist>
       </div>
+
+      
+
+      <hr>
     </form>
+
+    <a href="https:www.google.com" target="blank"> <button class="btn1"> Visit Google  </button>
+
+    </a>
+
+    <a href="https://www.w3schools.com/" target="blank"> <button class="btn2"> W3Schools</button> </a>
+    </center>
+    
+    <label for="gender" class="gender-class">Male</label>
+     <input type="radio" name="gender" value="choice-1" >
+      
+    <label for="gender" class="gender-class">Female</label>  
+    <input type="radio" name="gender" value="choice-2">
+      
   </body>
 </html>
