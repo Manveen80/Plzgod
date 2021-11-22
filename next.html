@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
-  
-</head>
+  <head> </head>
   <style>
-   
-
     label {
       display: block;
       margin: 10px;
@@ -22,100 +16,96 @@
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       background-color: yellow;
       width: 300px;
-      
     }
 
     button {
       margin: 10px;
     }
 
-
     .btn1 {
-  background-color: aquamarine;
-  color: black;
-  padding: 10px;
-}
+      background-color: aquamarine;
+      color: black;
+      padding: 10px;
+    }
 
-.btn1:hover {
-  background-color: brown;
-}
+    .btn1:hover {
+      background-color: brown;
+    }
 
-.btn2 {
-  background-color: aquamarine;
-  color: black;
-  padding: 10px;
-}
+    .btn2 {
+      background-color: aquamarine;
+      color: black;
+      padding: 10px;
+    }
 
-.btn2:hover {
-  background-color: brown;
-}
+    .btn2:hover {
+      background-color: brown;
+    }
 
-.gender-class {
-  display: block;
-}
+    .gender-class {
+      display: block;
+    }
   </style>
 
   <body>
-
-    
-
     <center>
-    <h1 style="color: #FF3C33;">Welcome there! how are you??</h1>
-<img src="images/flower.jpg" alt="flower" width="20%"/>
-  
+      <h1 style="color: #ff3c33">
+        Let's learn <abbr title="Hypertext Markup Language">HTML!</abbr>
+      </h1>
+      <img src="images/flower.jpg" alt="flower" width="20%" />
 
-    <form>
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" />
-      </div>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </div>
 
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="text" id=" email" />
-      </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id=" email" placeholder="xyz@gmail.com" />
+        </div>
 
-      <div class="form-group">
-        <label for="password">password</label>
-        <input type="password" id="password" />
-      </div>
+        <div class="form-group">
+          <label for="password">password</label>
+          <input type="password" id="password" />
+        </div>
 
-      <div id="button">
-        <button type="submit">submit</button>
-        <button type="reset">clear</button>
-        <button type="menu">age</button>
-      </div>
+        <div id="button">
+          <button type="submit">submit</button>
+          <button type="reset">clear</button>
+          <button type="menu">age</button>
+        </div>
 
-      
-        <input type="text" list="countries" />
-        <datalist id="countries">
-          <option>canada</option>
-          <option>India</option>
-          <option>USA</option>
-          <option>Australia</option>
-          <option>Germany</option>
-          <option>Brazil</option>
-          <option>Japan</option>
-        </datalist>
-      </div>
+        <div class="form-group">
+          <input type="text" list="countries" />
+          <datalist id="countries">
+            <option>canada</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Australia</option>
+            <option>Germany</option>
+            <option>Brazil</option>
+            <option>Japan</option>
+          </datalist>
+        </div>
 
-      
+        <hr />
+      </form>
 
-      <hr>
-    </form>
+      <a href="https:www.google.com" target="blank">
+        <button class="btn1">Visit Google</button>
+      </a>
 
-    <a href="https:www.google.com" target="blank"> <button class="btn1"> Visit Google  </button>
-
-    </a>
-
-    <a href="https://www.w3schools.com/" target="blank"> <button class="btn2"> W3Schools</button> </a>
+      <a href="https://www.w3schools.com/" target="blank">
+        <button class="btn2">W3Schools</button>
+      </a>
     </center>
-    
+
     <label for="gender" class="gender-class">Male</label>
-     <input type="radio" name="gender" value="choice-1" >
-      
-    <label for="gender" class="gender-class">Female</label>  
-    <input type="radio" name="gender" value="choice-2">
-      <div></div>
+    <input type="radio" name="gender" value="choice-1" />
+
+    <label for="gender" class="gender-class">Female</label>
+    <input type="radio" name="gender" value="choice-2" />
+    <div></div>
   </body>
 </html>
